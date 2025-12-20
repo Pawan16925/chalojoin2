@@ -1,8 +1,9 @@
 <?php
-$host = 'localhost';
-$db_name = 'chalojoin'; // Update if your DB name is different
-$username = 'root';
-$password = '';
+$host = 'db.fr-pari1.bengt.wasmernet.com';
+$db_name = 'dbizcJoNvgRxbjw6S2tUbnDY'; // Update if your DB name is different
+$username = '6b4e22d4732a80001d09d3995e4f';
+$password = '06946b4e-22d4-7799-8000-584501023797';
+$port = 10272;
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8", $username, $password);
