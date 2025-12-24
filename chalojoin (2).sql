@@ -277,3 +277,4 @@ ALTER TABLE `saved_opportunities`
   ADD CONSTRAINT `saved_opportunities_ibfk_2` FOREIGN KEY (`opportunity_id`) REFERENCES `opportunities` (`id`) ON DELETE CASCADE;
 COMMIT;
 
+ALTER TABLE `users` ADD `is_verified` TINYINT(1) DEFAULT 0;

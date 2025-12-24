@@ -17,7 +17,7 @@ try {
         ]
     );
 
-    echo "✅ Database connected successfully";
+    // echo "✅ Database connected successfully";
 } catch (PDOException $e) {
     die("❌ Connection failed: " . $e->getMessage());
 }
