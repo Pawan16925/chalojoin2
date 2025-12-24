@@ -20,7 +20,7 @@ try {
         ]
     );
 
-    echo "✅ Connected to Wasmer DB successfully";
+    // echo "✅ Connected to Wasmer DB successfully";
 } catch (PDOException $e) {
     die("❌ Connection failed: " . $e->getMessage());
 }
